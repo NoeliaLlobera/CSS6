@@ -1,0 +1,12 @@
+p{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 2px solid red;
+}
+    p::selection{
+        background-color: aquamarine;
+        color: white;
+    }
+h1:hover{
+    color: aquamarine;
+}
